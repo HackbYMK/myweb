@@ -1,0 +1,31 @@
+form action="search.php" method="POST" name="productsearchform">                                                                                         
+   <input name="simple_search" type="hidden" value="Y"/>
+   <input name="mode" type="hidden" value="search"/>
+   <input name="posted_data[by_title]" type="hidden" value="Y"/>
+   <input name="posted_data[by_shortdescr]" type="hidden" value="Y"/>
+   <input name="posted_data[by_fulldescr]" type="hidden" value="Y"/>
+   <tr>
+    <td width="20">
+    </td>
+    <td class="TopLabel">
+     SEARCH:
+    </td>                                                                                                                                                   
+    <td valign="middle">
+     <input name="posted_data[substring]" size="16" type="text" value=""/>
+    </td>
+    <td valign="middle">
+     <a href="javascript: document.productsearchform.submit()">
+      <img align="top" border="0" height="14" src="/php/xcart/skin1/images/go.gif" width="27"/>
+     </a>
+    </td>
+    <td width="20">
+    </td>
+    <td>
+     <a href="search.php">
+      <u>
+       ADVANCED SEARCH
+      </u>                                                                                                                                                  
+     </a>
+    </td>
+   </tr>
+  </form>
